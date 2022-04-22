@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/public/images/MC.svg" type="image/x-icon" />
+    <title>Dessign Fest</title>
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="styl.css" />
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div id="REGISTRATIONS" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <h2>Registrations</h2>
+            <form action="/register" method="POST" class="d-flex">
+                <div class="input col-12 col-md-6">
+                    <label for="firstName" class="col-4">First Name: </label>
+                    <input type="text" name="firstName" class="col-8" id="firstName" />
+                </div>
+                <div class="input col-12 col-md-6">
+                    <label for="lastName" class="col-4">Last Name: </label>
+                    <input type="text" class="col-8" name="lastName" id="lastName" />
+                </div>
+                <div class="input col-12 col-md-6">
+                    <label for="email" class="col-4">E-mail: </label>
+                    <input type="email" name="email" class="col-8" id="email" />
+                </div>
+                <div class="input col-12 col-md-6">
+                    <label for="phoneNumber" class="col-4">Phone Number: </label>
+                    <input type="tel" class="col-8" name="phoneNumber" id="phoneNumber" />
+                </div>
+                <div class="col-12 d-flex">
+                    <a href="#" id="REGISTER" class="btn mx-auto">
+                        COMPLETE THE REGISTRATION
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="Notification">
+        <h4>Registred to the event</h4>
+    </div>
+    <nav class="navbar">
+        <div class="nav_container">
+            <a href="idexx.html" class="logo">
+                <img src="images/MC.svg" style="width: 6em" alt="" />
+            </a>
+            <div class="Menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="navigation">
+                <li>
+                    <a href="https://www.microclub.net" target="_blank">
+                        <span>Micro Club</span>
+                        </a>
+                </li>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li class="menu-parent">
+                    <a href="#DETAILS">DETAILS</a>
+                    <ul class="details-menu">
+                        <li><a href="#SPEAKERS"> SPEAKERS </a></li>
+                        <li><a href="#SCHEDULE"> SCHEDULE </a></li>
+                        <li><a href="#WORKSHOPS"> WORKSHOPS </a></li>
+                        <li><a href="#MAP"> LOCATION </a></li>
+                        <li><a href="#SPONSORS">SPONSORS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+                <a href="#REGISTRATIONS" class="btn">
+                    Register in the event <i class="fa fa-arrow-right"></i>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <header id="HOME">
+        <section class="container1">
+            <h1 id="MainTitle"><span>Micro Club</span> Design Fest</h1>
+            <div class="header-info">
+                <h3>12 October 2021</h3>
+                <a href="#MAP">Confrence Room USTHB</a>
+                <a id="DiscoverBtn" href="#DETAILS" class="btn1">Discover More</a>
+            </div>
+        </section>
+    </header>
+
+<main>
+<section id="ABOUT" class="container">
+    <div class="container2">
+        <div class="abt-design">
+            <h2>ABOUT DESIGN FEST</h2>
+            <a href="#REGISTRATIONS" class="btn me-auto">
+                Register in the event <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="ktiba">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis
+                repellendus mollitia, explicabo, maiores quisquam numquam quia reiciendis sit,
+                accusantium atque ex animi perspiciatis ab odit earum assumenda aliquid.
+            </p>
+            <p>
+                Dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis repellendus
+                mollitia, explicabo, maiores quisquam numquam quia reiciendis sit, accusantium
+                atque ex animi perspiciatis ab odit earum assumenda aliquid.
+            </p>
+            <div class="row">
+                <div class="staff">
+                    <span class="counting-Number"><span>03</span></span>
+                    <span class="counting-text">DAYS EVENT</span>
+                </div>
+                <div class="staff">
+                    <span class="counting-Number"> <span>10</span> +</span>
+
+                    <span class="counting-text">Confrences</span>
+                </div>
+                <div class="staff">
+                    <span class="counting-Number"> <span>20</span> +</span>
+                    <span class="counting-text">WORKSHOPS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="SPEAKERS" class="container3">
+    <div class="speaker_kt">
+        <h2>SPEAKERS</h2>
+        <a href="speakers" class="btn1">
+            View All Speakers <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+    <div class="speaker-pic">
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="images/xteam3.jpg" alt="" />
+
+                <ul class="speaker-social">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="speaker-caption">
+                <h5><span>FIRST LASTNAME</span></h5>
+                <p>Web Devaloper <span>@MicroClub</span></p>
+            </div>
+        </div>
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="images/xteam3.jpg" alt="" />
+
+                <ul class="speaker-social">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="speaker-caption">
+                <h5><span>FIRST LASTNAME</span></h5>
+                <p>Web Devaloper <span>@MicroClub</span></p>
+            </div>
+        </div>
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="images/xteam2.jpg" alt="" />
+
+                <ul class="speaker-social">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="speaker-caption">
+                <h5><span>FIRST LASTNAME</span></h5>
+                <p>Web Devaloper <span>@MicroClub</span></p>
+            </div>
+        </div>
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="images/xteam1.jpg" alt="" />
+
+                <ul class="speaker-social">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="speaker-caption">
+                <h5><span>FIRST LASTNAME</span></h5>
+                <p>Web Devaloper <span>@MicroClub</span></p>
+            </div>
+        </div>
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="images/xteam2.jpg" alt="" />
+
+                <ul class="speaker-social">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="speaker-caption">
+                <h5><span>FIRST LASTNAME</span></h5>
+                <p>Web Devaloper <span>@MicroClub</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="DETAILS" class="container3">
+    <img  src="images/Celeb.jpg" alt="" />
+    <div class="celeb">
+        <h2>A MICRO CLUB <span>CELEBRATION OF DESIGN</span></h2>
+        <p>
+            Dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis repellendus
+            mollitia, explicabo, maiores quisquam numquam quia reiciendis sit, accusantium atque
+            ex animi perspiciatis ab odit earum assumenda aliquid santium atque ex animi.
+        </p>
+        <p>
+            Dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis repellendus
+            mollitia, explicabo, maiores quisquam numquam quia reiciendis sit, accusantium atque
+            ex animi perspiciatis ab odit earum assumenda aliquid santium atque ex animi.
+        </p>
+    </div>
+</section>
+<section id="SCHEDULE" class="container3">
+    <h2>SCHEDULE</h2>
+    <div class="SCHEDULE">
+        <div class="SCHEDULE-NAV">
+            <a href="#SCHEDULE" class="SCHEDULE-NAV-ELEMENT SHOW">12th Oct</a>
+            <a href="#SCHEDULE" class="SCHEDULE-NAV-ELEMENT">13th Oct</a>
+            <a href="#SCHEDULE" class="SCHEDULE-NAV-ELEMENT">14th Oct</a>
+        </div>
+        <div>
+            <ul class="SCHEDULE-LIST">
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>8:30 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>10:00 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>11:30 am</h4>
+                    </div>
+                </li>
+            </ul>
+            <ul class="SCHEDULE-LIST">
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Lunch</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>8:30 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>10:00 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>11:30 am</h4>
+                    </div>
+                </li>
+            </ul>
+            <ul class="SCHEDULE-LIST">
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>8:30 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>10:00 am</h4>
+                    </div>
+                </li>
+                <li class="SCHEDULE-ELEMENT d-flex align-content-between">
+                    <div class="me-auto">
+                        <h4>Registration And Breakfast</h4>
+                        <ul>
+                            <li>Name LastName</li>
+                            <li>Name LastName</li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto">
+                        <h4>11:30 am</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="WORKSHOPS" class="container3">
+    <div class="worksho">
+        <h2>WORKSHOPS</h2>
+        <a href="/workshops" class="btn1 ms-auto">
+            View All WORKSHOPS <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+    <div class="workshopps">
+        <div class="WORKSHOP">
+            <div class="WORKSHOP-CONTAINER">
+                <div class="WORKSHOP-IMG">
+                    <img src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+                </div>
+                <div class="WORKSHOP-CAPTION">
+                    <h4>Design concepts</h4>
+                    <p>
+                        This Training is made by ... for ... and some other details bla bla bla
+                        bla bla bla
+                        <a href="/">read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="WORKSHOP">
+            <div class="WORKSHOP-CONTAINER">
+                <div class="WORKSHOP-IMG">
+                    <img src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+                </div>
+                <div class="WORKSHOP-CAPTION">
+                    <h4>Design concepts</h4>
+                    <p>
+                        This Training is made by ... for ... and some other details bla bla bla
+                        bla bla bla
+                        <a href="/">read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="WORKSHOP">
+            <div class="WORKSHOP-CONTAINER">
+                <div class="WORKSHOP-IMG">
+                    <img src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+                </div>
+                <div class="WORKSHOP-CAPTION">
+                    <h4>Design concepts</h4>
+                    <p>
+                        This Training is made by ... for ... and some other details bla bla bla
+                        bla bla bla
+                        <a href="/">read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="WORKSHOP">
+            <div class="WORKSHOP-CONTAINER">
+                <div class="WORKSHOP-IMG">
+                    <img src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+                </div>
+                <div class="WORKSHOP-CAPTION">
+                    <h4>Design concepts</h4>
+                    <p>
+                        This Training is made by ... for ... and some other details bla bla bla
+                        bla bla bla
+                        <a href="/">read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<section id="MAP">
+        <iframe
+            class="Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7606.826485606849!2d3.1858369496193335!3d36.7159297615306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e5189eb619c9d%3A0x787a0b4fa45e227a!2sUniversity%20Of%20Science%20And%20Technology%20Houari%20Boumediene!5e0!3m2!1sen!2suk!4v1628360275743!5m2!1sen!2suk"
+            allowfullscreen="true"
+            loading="lazy"
+        ></iframe>
+    </section>
+
+    <footer>
+        <section id="SPONSORS" class="container3">
+            <div class="SPONSORS">
+                <div class="slide">
+                    <h2 >SPONSORS</h2>
+                    <div class="brands owl-carousel owl-carousel2">
+                        <div class="sponsor-element">
+                            <img src="images/brand1.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand2.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand3.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand4.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand1.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand2.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand3.png" alt="" />
+                        </div>
+                        <div class="sponsor-element">
+                            <img src="images/brand4.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="CONTACT" class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="/public/images/MC.svg" style="width: 6.5em" alt="" />
+                    <p>
+                        Duis aute irure dolor inassfa reprehenderit in voluptate velit esse
+                        cillum. Explicabo, maiores quisquam numquam quia reiciendis sit, accus
+                        antium atque ex animi perspiciatis ab odit earum assumenda aliquid
+                        santium.
+                    </p>
+                    <div class="social">
+                        <i class="facebook"></i>
+                        <i class="instagram"></i>
+                        <i class="linkedin"></i>
+                        <i class="youtube"></i>
+                    </div>
+                </div>
+                <div class="CONTACT col-12 col-sm-6 col-md-4 d-flex flex-column">
+                    <h4>Contact Us</h4>
+                    <a href="#MAP">Confrence Room USTHB</a>
+                    <a href="mailto:microclub@usthb.dz">microclub@usthb.dz</a>
+                    <a href="tel:00213542170114">+(213) 542 170 114</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4>Subscribe Newsletter</h4>
+                    <p>
+                        raising a heavy fur muff that covered the whole of her lower arm towards
+                        the viewer.
+                    </p>
+                    <form class="email" action="/email" method="post">
+                        <input class="col-12" type="email" name="email"/>
+                        <a href="#CONTACT" class="btn">
+                            Subscribe for more details<i class="fa fa-arrow-right"></i>
+                        </a>
+                        <div>Submitting...</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="Copyright d-flex justify-content-center">
+            <p>
+                Copyright ©2021 All rights reserved
+                <a href="https://www.microclub.net">@MicroClub</a>
+            </p>
+        </section>
+        <a href="#HOME" title="scroll up" class="scroll hidden">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+</body>
+<script defer src="script.js"></script>
+</html>
